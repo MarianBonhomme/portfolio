@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+
+@font-face {
+  font-family: 'Cera CY Bold';
+  src: url('../public/fonts/Cera\ CY\ Bold.ttf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.mouse {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 200dvw;
+  height: 200dvw;
+  background: radial-gradient(#313237 0%, #18191E 30%, #18191E 100%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* hide scrollbar */
+body::-webkit-scrollbar {
+  width: 0em;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+/* slider */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.swiper-slide {
+  min-height: 100dvh;
+  background-position: center;
+  background-size: cover;
+  min-width: 350px;
+  width: 35%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+  filter: grayscale(1) brightness(0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-slide-active img {
+  filter: grayscale(0) brightness(1);
+}
+
+.swiper-slide .slide-content {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.swiper-slide-active .slide-content {
+  opacity: 1;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none !important;
+}
+
+
+
+
+.text-shadow {
+  text-shadow: 5px 5px 10px #000;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 10px #000;
+}

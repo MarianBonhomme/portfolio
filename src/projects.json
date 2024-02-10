@@ -1,0 +1,166 @@
+[
+  {
+    "title": "My Resume",
+    "description": "Explore my journey, skills, and experiences through an intuitive and elegant User Interface featuring an 8-style theme switcher",
+    "paragraphs": [
+      "Crafted using the basic trio of HTML, CSS and JS, with the wonderful Tailwind",
+      "For this project, I wanted to implement the glassmorphism design, combining with a theme-switching capability to suit your preferences"
+    ],
+    "img": "mar-banner.png",
+    "mockup": "mar-mockup.svg",
+    "technos": [
+      {
+        "name": "html",
+        "extension": "svg"
+      },
+      {
+        "name": "css",
+        "extension": "svg"
+      },
+      {
+        "name": "javascript",
+        "extension": "svg"
+      },
+      {
+        "name": "tailwind",
+        "extension": "svg"
+      } 
+    ],
+    "link": "https://marianbonhomme.netlify.app"
+  },  
+  {
+    "title": "Sport Food",
+    "description": "Discover Sport Food - my React and Firebase project. A restaurant app for healthy meals, easy orders, and administration dish management",
+    "paragraphs": [
+      "I developed a dynamic REACT and FIREBASE application for Sport Food, a health-focused restaurant",
+      "Users can easily explore and order from a menu of nutritious options while tracking their order history",
+      "The admin section provides an interface for creating, editing, and deleting dishes"
+    ],
+    "img": "sportfood-banner.png",
+    "mockup": "sportfood-mockup.svg",
+    "technos": [
+      {
+        "name": "react",
+        "extension": "svg"
+      },
+      {
+        "name": "firebase",
+        "extension": "png"
+      },
+      {
+        "name": "tailwind",
+        "extension": "svg"
+      }
+    ],
+    "link": "not yet hosted"
+  },
+  {
+    "title": "Hikes Blog",
+    "description": "Dive into my ongoing Angular project – a front-end application designed to capture the beauty of hiking landscapes",
+    "paragraphs": [
+      "Currently in development, my Angular-based project revolves around my passion for hiking",
+      "This front-end application serves as a visual narrative, allowing me to share the breathtaking landscapes I encounter through a beautiful designed blog",
+      "Stay tuned for an immersive experience that brings the joy of hiking directly to your screen!"
+    ],
+    "img": "hikes-banner.png",
+    "mockup": "hikes-mockup.svg",
+    "technos": [
+      {
+        "name": "angular",
+        "extension": "png"
+      },
+      {
+        "name": "tailwind",
+        "extension": "svg"
+      }
+    ],
+    "link": "project under development"
+  },
+  {
+    "title": "victoria",
+    "description": "Explore a single script website showcasing the CV of my partner, a sports business engineer, seamlessly blending simplicity, elegance, and functionality.",
+    "paragraphs": [
+      "This project follows the same language stack as my personal CV, utilizing HTML, CSS, JS, and Tailwind",
+      "With a distinctly professional and elegant design, this 'single script website' beautifully highlights the journey of my partner, a sports business engineer, adding finesse and style to her profile"
+    ],
+    "img": "vic-banner.png",
+    "mockup": "vic-mockup.svg",
+    "technos": [
+      {
+        "name": "html",
+        "extension": "svg"
+      },
+      {
+        "name": "css",
+        "extension": "svg"
+      },
+      {
+        "name": "javascript",
+        "extension": "svg"
+      },
+      {
+        "name": "tailwind",
+        "extension": "svg"
+      } 
+    ],
+    "link": "https://victoriacarobbi.fr"
+  },
+  {
+    "title": "Les petits mandarins",
+    "description": "Introducing a corporate project where I translated a UI/UX designer's vision into reality",
+    "paragraphs": [
+      "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a UX/UI designer",
+      "If you want to collaborate with, you can cantact her by on Linkedin - Emma"
+    ],
+    "img": "lpm-banner.png",
+    "mockup": "lpm-mockup.svg",
+    "technos": [
+      {
+        "name": "bootstrap",
+        "extension": "svg"
+      },
+      {
+        "name": "javascript",
+        "extension": "svg"
+      },
+      {
+        "name": "symfony",
+        "extension": "png"
+      },
+      {
+        "name": "twig",
+        "extension": "png"
+      }
+    ],
+    "link": "https://lespetitsmandarins.fr"
+  },
+  {
+    "title": "Globe Speaker",
+    "description": "Presenting another corporate achievement - the landing page redesign integration from a UI/UX designer's mockup",
+    "paragraphs": [
+      "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a UX/UI designer",
+      "If you want to collaborate with, you can cantact her by on Linkedin - Marahaba"
+    ],
+    "img": "gs-banner.png",
+    "mockup": "gs-mockup.svg",
+    "technos": [
+      {
+        "name": "bootstrap",
+        "extension": "svg"
+      },
+      {
+        "name": "javascript",
+        "extension": "svg"
+      },
+      {
+        "name": "symfony",
+        "extension": "png"
+      },
+      {
+        "name": "twig",
+        "extension": "png"
+      }
+    ],
+    "link": "https://globespeaker.fr"
+  }
+]
