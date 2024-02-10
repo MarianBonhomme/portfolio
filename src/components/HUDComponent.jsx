@@ -29,9 +29,9 @@ export default function HUDComponent({ scrollToSection }) {
         </ul>
       </nav> 
       <ul className="fixed bottom-[15px] left-[15px] sm:bottom-[25px] sm:left-[25px] xl:bottom-[50px] xl:left-[50px] 2xl:bottom-[70px] 2xl:left-[70px] z-40">
-        <li><img src="src/assets/icons/github.png" alt="github" className="cursor-pointer w-6 2xl:w-10" onClick={() => visitWebsite("https://github.com/MarianBonhomme")} /></li>
-        <li><img src="src/assets/icons/instagram.svg" alt="instagram" className="cursor-pointer w-6 2xl:w-10 mt-6 2xl:mt-10" onClick={() => visitWebsite("https://www.instagram.com/marian.bnhm/")} /></li>
-        <li><img src="src/assets/icons/linkedin.svg" alt="linkedin" className="cursor-pointer w-6 2xl:w-10 mt-6 2xl:mt-10" onClick={() => visitWebsite("https://www.linkedin.com/in/marian-bonhomme-developpeur-montpellier/")} /></li>
+        <li><img src="/assets/icons/github.png" alt="github" className="cursor-pointer w-6 2xl:w-10" onClick={() => visitWebsite("https://github.com/MarianBonhomme")} /></li>
+        <li><img src="/assets/icons/instagram.svg" alt="instagram" className="cursor-pointer w-6 2xl:w-10 mt-6 2xl:mt-10" onClick={() => visitWebsite("https://www.instagram.com/marian.bnhm/")} /></li>
+        <li><img src="/assets/icons/linkedin.svg" alt="linkedin" className="cursor-pointer w-6 2xl:w-10 mt-6 2xl:mt-10" onClick={() => visitWebsite("https://www.linkedin.com/in/marian-bonhomme-developpeur-montpellier/")} /></li>
       </ul>
       <div className="fixed bottom-[15px] right-[15px] sm:bottom-[25px] sm:right-[25px] xl:bottom-[50px] xl:right-[50px] 2xl:bottom-[70px] 2xl:right-[70px] z-40 flex flex-col items-center gap-1">
         <p className={`-rotate-90 text-3xl 2xl:text-5xl ${currentSection < 2 ? 'opacity-0' : 'cursor-pointer'}`} onClick={() => checkSection(currentSection - 1)}>›</p>       
