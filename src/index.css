@@ -9,6 +9,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (prefers-color-scheme: dark) {
+  meta[name="theme-color"] {
+    content: #000000; /* Couleur en mode sombre */
+  }
+}
+@media (prefers-color-scheme: light) {
+  meta[name="theme-color"] {
+    content: #ffffff; /* Couleur en mode clair */
+  }
+}
 
 body {
   overflow: hidden;
