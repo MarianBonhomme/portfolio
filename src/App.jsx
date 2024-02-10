@@ -9,11 +9,13 @@ import { useProject } from './utils/ProjectContext';
 import { useSection } from './utils/SectionContext';
 
 export default function App() {
-  const { isModalVisible } = useProject();
+  const { isModalVisible, projects } = useProject();
   const { setCurrentSection } = useSection();
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
+    preloadImages();
+
     scrollToSection(1);
 
     const handleMouseMove = (e) => {
@@ -26,6 +28,15 @@ export default function App() {
       document.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
+
+  const preloadImages = () => {
+    projects.forEach((project) => {
+      const image = new Image();
+      import(`/assets/images/${project.img}`).then((module) => {
+        image.src = module.default;
+      });
+    })
+  }
 
   const scrollToSection = (sectionId) => {
     scroller.scrollTo(`section-${sectionId}`, {
