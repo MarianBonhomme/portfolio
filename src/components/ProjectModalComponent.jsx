@@ -12,11 +12,11 @@ export default function ProjectModalComponent() {
 
   return (
     <div className="h-full flex items-center">
-      <p className='absolute top-[15px] sm:top-[50px] left-[15px] sm:left-[50px] text-5xl 2xl:text-7xl font-black cursor-pointer' onClick={() => setIsModalVisible(false)}>←</p>
+      <p className='absolute top-0 sm:top-[50px] left-[15px] sm:left-[50px] text-5xl 2xl:text-7xl font-black cursor-pointer' onClick={() => setIsModalVisible(false)}>←</p>
       {currentProject && (
         <>
-          <div className='h-full flex sm:hidden flex-col items-center justify-evenly p-[15px]'>
-            <div className='w-full flex flex-col items-center gap-8'>
+          <div className='h-full flex sm:hidden flex-col items-center justify-evenly p-[15px] pb-[70px]'>
+            <div className='w-full flex flex-col items-center gap-5'>
               <TitleComponent text={currentProject.title}/>
               <div className="flex gap-5">
                 {currentProject.technos.map((techno) => (

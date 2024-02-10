@@ -3,7 +3,7 @@ import TitleComponent from './TitleComponent'
 
 export default function ContactDataComponent() {
   return (
-    <div className='max-w-xl 2xl:max-w-4xl text-center'>
+    <div className='max-w-xl 2xl:max-w-4xl text-center px-5 sm:px-0'>
       <TitleComponent text="contact" css="mb-10" />
       <p className='text-sm 2xl:text-xl leading-loose mb-10'>I am at your disposal for any further questions or inquiries. I would be delighted to respond as promptly as possible. Looking forward to hearing from you!</p>
       <div className='mb-5'>

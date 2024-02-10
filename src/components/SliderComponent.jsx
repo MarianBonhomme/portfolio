@@ -56,10 +56,10 @@ export default function SliderComponent() {
             </div>
           </SwiperSlide>
         ))}
-        <div className={`arrow-prev fixed bottom-[8%] sm:bottom-[15%] left-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
+        <div className={`arrow-prev fixed bottom-[10%] sm:bottom-[15%] left-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
           ${currentSection === 2 ? 'cursor-pointer' : 'opacity-0'}
           ${!prevButtonVisible && 'opacity-0 cursor-default'}`} >←</div>
-        <div className={`arrow-next fixed bottom-[8%] sm:bottom-[15%] right-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
+        <div className={`arrow-next fixed bottom-[10%] sm:bottom-[15%] right-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
           ${currentSection === 2 ? 'cursor-pointer' : 'opacity-0'}
           ${!nextButtonVisible && 'opacity-0 cursor-default'}`} >→</div>
       </Swiper>      
