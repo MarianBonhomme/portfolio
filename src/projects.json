@@ -63,7 +63,7 @@
       "Stay tuned for an immersive experience that brings the joy of hiking directly to your screen!"
     ],
     "img": "hikes-banner.png",
-    "mockup": "hikes-mockup.svg",
+    "mockup": "HikesBlog.png",
     "technos": [
       {
         "name": "angular",
