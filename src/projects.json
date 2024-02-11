@@ -7,7 +7,7 @@
       "For this project, I wanted to implement the glassmorphism design, combining with a theme-switching capability to suit your preferences"
     ],
     "img": "mar-banner.png",
-    "mockup": "mar-mockup.svg",
+    "mockup": "mar-mockup.png",
     "technos": [
       {
         "name": "html",
@@ -37,7 +37,7 @@
       "The admin section provides an interface for creating, editing, and deleting dishes"
     ],
     "img": "sportfood-banner.png",
-    "mockup": "sportfood-mockup.svg",
+    "mockup": "sportfood-mockup.png",
     "technos": [
       {
         "name": "react",
@@ -63,7 +63,7 @@
       "Stay tuned for an immersive experience that brings the joy of hiking directly to your screen!"
     ],
     "img": "hikes-banner.png",
-    "mockup": "HikesBlog.png",
+    "mockup": "hikes-mockup.png",
     "technos": [
       {
         "name": "angular",
@@ -84,7 +84,7 @@
       "With a distinctly professional and elegant design, this 'single script website' beautifully highlights the journey of my partner, a sports business engineer, adding finesse and style to her profile"
     ],
     "img": "vic-banner.png",
-    "mockup": "vic-mockup.svg",
+    "mockup": "vic-mockup.png",
     "technos": [
       {
         "name": "html",
@@ -113,7 +113,7 @@
       "If you want to collaborate with, you can cantact her by on Linkedin - Emma"
     ],
     "img": "lpm-banner.png",
-    "mockup": "lpm-mockup.svg",
+    "mockup": "lpm-mockup.png",
     "technos": [
       {
         "name": "bootstrap",
@@ -142,7 +142,7 @@
       "If you want to collaborate with, you can cantact her by on Linkedin - Marahaba"
     ],
     "img": "gs-banner.png",
-    "mockup": "gs-mockup.svg",
+    "mockup": "gs-mockup.png",
     "technos": [
       {
         "name": "bootstrap",
