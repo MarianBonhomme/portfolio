@@ -32,7 +32,7 @@ export default function ProjectModalComponent() {
                 ))}
               </div>
             </div>  
-            <img src={`/assets/images/${currentProject.mockup}`} className='w-full max-h-[30dvh]'/>
+            <img src={`/assets/images/${currentProject.mockup}`} className='max-h-[30dvh] w-auto'/>
             {currentProject.link.includes('http') ? (
               <ButtonComponent text="i want to visit" css='mx-auto' clicked={() => visitWebsite(currentProject.link)} />
             ) : (
