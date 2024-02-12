@@ -162,5 +162,21 @@
       }
     ],
     "link": "https://globespeaker.fr"
+  },
+  {
+    "title": "Chalkboard",
+    "description": "A portfolio prototype featuring a chalkboard design",
+    "paragraphs": [
+      "Developed as my first React project, this prototype showcases a chalkboard-inspired aesthetic, serving more as a fictional project than a real portfolio"
+    ],
+    "img": "chalkboard-banner.png",
+    "mockup": "chalkboard-mockup.png",
+    "technos": [
+      {
+        "name": "react",
+        "extension": "svg"
+      }
+    ],
+    "link": "not hosted"
   }
 ]
