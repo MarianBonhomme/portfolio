@@ -10,7 +10,7 @@ export const ProjectProvider = ({ children }) => {
 
   useEffect(() => {
     preloadImages();
-  })
+  }, [])
   
   const preloadImages = () => {
     projects.forEach((project) => {

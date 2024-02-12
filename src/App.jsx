@@ -60,7 +60,7 @@ export default function App() {
         </div>
       </Element>
 
-      <div className={`fixed top-0 h-screen w-screen z-50 bg-dark transition-all duration-500 ${isModalVisible ? 'left-0' : '-left-full'}`}>
+      <div className={`fixed top-0 h-screen w-screen z-50 bg-dark transition-all duration-500 ${isModalVisible ? 'translate-x-0' : '-translate-x-full'}`}>
         <ProjectModalComponent />
       </div>
       
