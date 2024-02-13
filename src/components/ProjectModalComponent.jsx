@@ -28,7 +28,7 @@ export default function ProjectModalComponent() {
               </div>
               <div className='flex flex-col gap-3 text-xs text-center'>
                 {currentProject.paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
               </div>
             </div>  
@@ -60,7 +60,7 @@ export default function ProjectModalComponent() {
               </div>
               <div className='flex flex-col gap-5 text-lg'>
                 {currentProject.paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function ProjectModalComponent() {
               </div>
               <div className='flex flex-col gap-5 text-lg 2xl:text-xl'>
                 {currentProject.paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
               </div>
   

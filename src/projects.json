@@ -107,10 +107,10 @@
   },
   {
     "title": "Les petits mandarins",
-    "description": "Introducing a corporate project where I translated a UI/UX designer's vision into reality",
+    "description": "Introducing a corporate project where I translated a graphic designer's vision into reality",
     "paragraphs": [
-      "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a UX/UI designer",
-      "If you want to collaborate with, you can cantact her by on Linkedin - Emma Rouquet"
+      "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a graphic designer",
+      "If you want to collaborate with, you can cantact her on Linkedin <a href='https://www.linkedin.com/in/emma-rouquet-2152901a0/' target='_blank' class='underline'>Emma Rouquet</a> and view his <a href='https://rouquetemma.fr' target='_blank' class='underline'>Portfolio</a>"
     ],
     "img": "lpm-banner.png",
     "mockup": "lpm-mockup.png",
@@ -132,7 +132,7 @@
         "extension": "png"
       }
     ],
-    "link": "https://lespetitsmandarins.fr"
+    "link": "https://dev.lespetitsmandarins.fr"
   },
   {
     "title": "Globe Speaker",

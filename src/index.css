@@ -87,3 +87,7 @@ body::-webkit-scrollbar-track {
 .box-shadow {
   box-shadow: 5px 5px 10px #000;
 }
+
+.underline {
+  text-decoration: underline;
+}
