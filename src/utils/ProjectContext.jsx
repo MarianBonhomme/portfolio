@@ -8,17 +8,6 @@ export const ProjectProvider = ({ children }) => {
   const [currentProject, setCurrentProject] = useState(projects[0]);
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  useEffect(() => {
-    preloadImages();
-  }, [])
-  
-  const preloadImages = () => {
-    projects.forEach((project) => {
-      const image = new Image();
-      image.src = `/assets/images/${project.mockup}`;
-    });
-  }
-
   return (
     <ProjectContext.Provider
       value={{
