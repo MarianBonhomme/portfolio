@@ -3,8 +3,8 @@
 @font-face {
   font-family: 'Cera CY Bold';
   src:
-    url('/assets/fonts/Cera\ CY\ Bold.woff2') format('woff2'),
-    url('/assets/fonts/Cera\ CY\ Bold.woff') format('woff');
+    url('/assets/fonts/CeraCYBold.woff2') format('woff2'),
+    url('/assets/fonts/CeraCYBold.woff') format('woff');
 }
 
 @tailwind base;
