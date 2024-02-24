@@ -12,7 +12,7 @@ export default function ContactDataComponent() {
       </div>
       <div className='mb-5'>
         <p className='text-xl 2xl:text-3xl font-cera mb-1'>Email</p>
-        <p className='text-xs 2xl:text-base select-text'>marianbonhomme.gmail.com</p>
+        <p className='text-xs 2xl:text-base select-text'>marian.bonhomme@gmail.com</p>
       </div>
       <div className='mb-5'>
         <p className='text-xl 2xl:text-3xl font-cera mb-1'>Address</p>
