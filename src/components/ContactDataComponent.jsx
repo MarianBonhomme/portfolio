@@ -16,7 +16,7 @@ export default function ContactDataComponent() {
       </div>
       <div className='mb-5'>
         <p className='text-xl 2xl:text-3xl font-cera mb-1'>Address</p>
-        <p className='text-xs 2xl:text-base select-text'>Montpellier</p>
+        <p className='text-xs 2xl:text-base select-text'>Montpellier • France</p>
       </div>
     </div>
   )
