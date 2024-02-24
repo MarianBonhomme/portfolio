@@ -60,9 +60,9 @@ export default function ContactFormComponent() {
             className='w-full bg-transparent border-white border-b focus-visible:outline-none py-3 mb-1'
           />
           {formik.touched.name && formik.errors.name && !formik.isSubmitting ? (
-            <div className='text-xxs'>{formik.errors.name}</div>
+            <div className='text-xs mt-1'>{formik.errors.name}</div>
           ) : (
-            <div className='text-xxs'>&nbsp;</div>
+            <div className='text-xs mt-1'>&nbsp;</div>
           )}
         </div>
   
@@ -79,9 +79,9 @@ export default function ContactFormComponent() {
             className='w-full bg-transparent border-white border-b focus-visible:outline-none py-3 mb-1'
           />
           {formik.touched.mail && formik.errors.mail && !formik.isSubmitting ? (
-            <div className='text-xxs'>{formik.errors.mail}</div>
+            <div className='text-xs mt-1'>{formik.errors.mail}</div>
           ) : (
-            <div className='text-xxs'>&nbsp;</div>
+            <div className='text-xs mt-1'>&nbsp;</div>
           )}
         </div>
   
@@ -98,9 +98,9 @@ export default function ContactFormComponent() {
             className='w-full bg-transparent border-white border-b focus-visible:outline-none py-3 '
           />
           {formik.touched.message && formik.errors.message && !formik.isSubmitting ? (
-            <div className='text-xxs'>{formik.errors.message}</div>
+            <div className='text-xs mt-1'>{formik.errors.message}</div>
           ) : (
-            <div className='text-xxs'>&nbsp;</div>
+            <div className='text-xs mt-1'>&nbsp;</div>
           )}
         </div>
   

@@ -51,7 +51,7 @@ export default function SliderComponent() {
             <img src={`/assets/images/${project.img}`} className="absolute top-1/2 -translate-y-[100%] sm:-translate-y-[75%]" alt={project.title}/>
             <div className="slide-content absolute top-[50%] sm:top-[60%] 2xl:top-[63%] sm:-left-1/4 w-full sm:w-[150%] lg:-left-1/2 lg:w-[200%] flex flex-col items-center z-50">
               <TitleComponent text={project.title} />
-              <p className="text-center text-xxs sm:text-sm 2xl:text-xl leading-loose my-2 xl:my-5">{project.description}</p>
+              <p className="text-center text-sm 2xl:text-xl leading-loose my-2 xl:my-5">{project.description}</p>
               <ButtonComponent text="see more" clicked={() => displayProjectDetails(project)} />
             </div>
           </SwiperSlide>

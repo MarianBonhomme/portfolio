@@ -22,11 +22,11 @@ export default function ProjectModalComponent() {
                 {currentProject.technos.map((techno) => (
                   <div key={techno.name} className='flex flex-col items-center'>
                     <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-10 mb-2' alt={techno.name}/>
-                    <p className='uppercase text-xxs'>{techno.name}</p>
+                    <p className='uppercase text-xs'>{techno.name}</p>
                   </div>
                 ))}
               </div>
-              <div className='flex flex-col gap-3 text-xs text-center'>
+              <div className='flex flex-col gap-3 text-sm text-center'>
                 {currentProject.paragraphs.map((paragraph, index) => (
                   <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }}></p>
                 ))}
