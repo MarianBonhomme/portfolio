@@ -15,10 +15,8 @@ export const ProjectProvider = ({ children }) => {
   const preloadImages = () => {
     projects.forEach((project) => {
       const image = new Image();
-      import(`/assets/images/${project.mockup}`).then((module) => {
-        image.src = module.default;
-      });
-    })
+      image.src = `/assets/images/${project.mockup}`;
+    });
   }
 
   return (
