@@ -6,7 +6,7 @@
       "Crafted using the basic trio of HTML, CSS and JS, with the wonderful Tailwind",
       "For this project, I wanted to implement the glassmorphism design, combining with a theme-switching capability to suit your preferences"
     ],
-    "img": "mar-banner.png",
+    "img": "mar-banner.webp",
     "mockup": "mar-mockup.png",
     "technos": [
       {
@@ -36,7 +36,7 @@
       "Users can easily explore and order from a menu of nutritious options while tracking their order history",
       "The admin section provides an interface for creating, editing, and deleting dishes"
     ],
-    "img": "sportfood-banner.png",
+    "img": "sportfood-banner.webp",
     "mockup": "sportfood-mockup.png",
     "technos": [
       {
@@ -62,7 +62,7 @@
       "This front-end application serves as a visual narrative, allowing me to share the breathtaking landscapes I encounter through a beautiful designed blog",
       "Stay tuned for an immersive experience that brings the joy of hiking directly to your screen!"
     ],
-    "img": "hikes-banner.png",
+    "img": "hikes-banner.webp",
     "mockup": "hikes-mockup.png",
     "technos": [
       {
@@ -83,7 +83,7 @@
       "This project follows the same language stack as my personal CV, utilizing HTML, CSS, JS, and Tailwind",
       "With a distinctly professional and elegant design, this 'single script website' beautifully highlights the journey of my partner, a sports business engineer, adding finesse and style to her profile"
     ],
-    "img": "vic-banner.png",
+    "img": "vic-banner.webp",
     "mockup": "vic-mockup.png",
     "technos": [
       {
@@ -112,7 +112,7 @@
       "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a graphic designer",
       "If you want to collaborate with, you can cantact her on Linkedin <a href='https://www.linkedin.com/in/emma-rouquet-2152901a0/' target='_blank' class='underline'>Emma Rouquet</a> and view his <a href='https://rouquetemma.fr' target='_blank' class='underline'>Portfolio</a>"
     ],
-    "img": "lpm-banner.png",
+    "img": "lpm-banner.webp",
     "mockup": "lpm-mockup.png",
     "technos": [
       {
@@ -141,7 +141,7 @@
       "Throughout my journey within the company, I incorporated a stunning landing page, from a beautiful mockup designed by a UX/UI designer",
       "If you want to collaborate with, you can cantact her by on Linkedin - Marahaba"
     ],
-    "img": "gs-banner.png",
+    "img": "gs-banner.webp",
     "mockup": "gs-mockup.png",
     "technos": [
       {
@@ -169,7 +169,7 @@
     "paragraphs": [
       "Developed as my first React project, this prototype showcases a chalkboard-inspired aesthetic, serving more as a fictional project than a real portfolio"
     ],
-    "img": "chalkboard-banner.png",
+    "img": "chalkboard-banner.webp",
     "mockup": "chalkboard-mockup.png",
     "technos": [
       {

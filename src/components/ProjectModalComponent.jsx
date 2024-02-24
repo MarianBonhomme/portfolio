@@ -21,7 +21,7 @@ export default function ProjectModalComponent() {
               <div className="flex gap-5">
                 {currentProject.technos.map((techno) => (
                   <div key={techno.name} className='flex flex-col items-center'>
-                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-10 mb-2'/>
+                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-10 mb-2' alt={techno.name}/>
                     <p className='uppercase text-xxs'>{techno.name}</p>
                   </div>
                 ))}
@@ -32,7 +32,7 @@ export default function ProjectModalComponent() {
                 ))}
               </div>
             </div>  
-            <img src={`/assets/images/${currentProject.mockup}`} className='max-h-[30dvh] w-auto'/>
+            <img src={`/assets/images/${currentProject.mockup}`} className='max-h-[30dvh] w-auto' alt={currentProject.title}/>
             {currentProject.link.includes('http') ? (
               <ButtonComponent text="i want to visit" css='mx-auto' clicked={() => visitWebsite(currentProject.link)} />
             ) : (
@@ -41,7 +41,7 @@ export default function ProjectModalComponent() {
           </div>
           <div className='hidden sm:flex lg:hidden items-center gap-[20px]'>
             <div className='w-1/2 flex flex-col items-center'>
-                <img src={`/assets/images/${currentProject.mockup}`} className='w-full'/>    
+                <img src={`/assets/images/${currentProject.mockup}`} className='w-full' alt={currentProject.title}/>    
                 {currentProject.link.includes('http') ? (
                     <ButtonComponent text="i want to visit" clicked={() => visitWebsite(currentProject.link)} />
                   ) : (
@@ -53,7 +53,7 @@ export default function ProjectModalComponent() {
               <div className="flex gap-8">
                 {currentProject.technos.map((techno) => (
                   <div key={techno.name} className='flex flex-col items-center'>
-                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-8 mb-2'/>
+                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-8 mb-2' alt={techno.name}/>
                     <p className='uppercase text-xxs'>{techno.name}</p>
                   </div>
                 ))}
@@ -66,13 +66,13 @@ export default function ProjectModalComponent() {
             </div>
           </div>
           <div className='w-full hidden lg:flex justify-center items-center p-[50px] gap-[50px]'>
-            <img src={`/assets/images/${currentProject.mockup}`} className='w-1/2 max-w-4xl'/>
+            <img src={`/assets/images/${currentProject.mockup}`} className='w-1/2 max-w-4xl' alt={currentProject.title}/>
             <div className='w-1/2 flex flex-col gap-10 2xl:gap-14'>
               <TitleComponent text={currentProject.title} css="text-start" />
               <div className="flex gap-10">
                 {currentProject.technos.map((techno) => (
                   <div key={techno.name} className='flex flex-col items-center'>
-                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-10 2xl:w-14 mb-2'/>
+                    <img src={`/assets/icons/${techno.name}.${techno.extension}`} className='w-10 2xl:w-14 mb-2' alt={techno.name}/>
                     <p className='uppercase text-xxs 2xl:text-sm'>{techno.name}</p>
                   </div>
                 ))}

@@ -2,7 +2,9 @@
 
 @font-face {
   font-family: 'Cera CY Bold';
-  src: url('/assets/fonts/Cera\ CY\ Bold.ttf');
+  src:
+    url('/assets/fonts/Cera\ CY\ Bold.woff2') format('woff2'),
+    url('/assets/fonts/Cera\ CY\ Bold.woff') format('woff');
 }
 
 @tailwind base;
