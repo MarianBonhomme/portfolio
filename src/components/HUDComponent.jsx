@@ -18,7 +18,7 @@ export default function HUDComponent({ scrollToSection }) {
   return (
     <>
       <div className="fixed top-[15px] left-[15px] sm:top-[25px] sm:left-[25px] xl:top-[50px] xl:left-[50px] 2xl:top-[70px] 2xl:left-[70px] z-40">
-        <span className="text-5xl sm:text-6xl 2xl:text-8xl font-cera tracking-tighter cursor-pointer" onClick={() => scrollToSection(1)}>MB</span>
+        <img src="/assets/logo-white.png" alt="logo" className='w-12 sm:w-14 2xl:w-20 cursor-pointer' onClick={() => scrollToSection(1)} />
       </div>
       <nav className="fixed top-[15px] right-[15px] sm:top-[25px] sm:right-[25px] xl:top-[50px] xl:right-[50px] 2xl:top-[70px] 2xl:right-[70px] z-40">
         <ul className="flex flex-col sm:flex-row gap-[15px] sm:gap-[50px] text-lg sm:text-xl 2xl:text-3xl">
