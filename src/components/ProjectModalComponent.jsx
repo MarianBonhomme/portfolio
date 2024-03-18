@@ -12,7 +12,7 @@ export default function ProjectModalComponent() {
 
   return (
     <div className="h-full flex items-center">
-      <p className='absolute top-0 sm:top-[50px] left-[15px] sm:left-[50px] text-5xl 2xl:text-7xl font-black cursor-pointer' onClick={() => setIsModalVisible(false)}>←</p>
+      <p className='absolute top-0 sm:top-[50px] left-[15px] sm:left-[50px] text-3xl 2xl:text-5xl font-black cursor-pointer' onClick={() => setIsModalVisible(false)}>✕</p>
       {currentProject && (
         <>
           <div className='h-full flex sm:hidden flex-col items-center justify-evenly p-[15px] pb-[70px]'>

@@ -11,11 +11,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow: hidden;
-  scroll-behavior: smooth;
-}
-
 .mouse {
   position: fixed;
   transform: translate(-50%, -50%);
@@ -27,16 +22,6 @@ body {
   pointer-events: none;
 }
 
-/* hide scrollbar */
-body::-webkit-scrollbar {
-  width: 0em;
-}
-body::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-body::-webkit-scrollbar-track {
-  background-color: transparent;
-}
 
 
 /* slider */
@@ -78,7 +63,6 @@ body::-webkit-scrollbar-track {
 .swiper-slide-shadow-right {
   display: none !important;
 }
-
 
 
 

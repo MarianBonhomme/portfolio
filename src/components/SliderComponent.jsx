@@ -6,23 +6,18 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useProject } from "../utils/ProjectContext";
-import { useSection } from "../utils/SectionContext";
 import TitleComponent from './TitleComponent';
 import ButtonComponent from "./ButtonComponent";
 
 export default function SliderComponent() {
   const { projects, setCurrentProject, setIsModalVisible } = useProject();
-  const { currentSection } = useSection();
 
   const [prevButtonVisible, setPrevButtonVisible] = useState(false);
   const [nextButtonVisible, setNextButtonVisible] = useState(true);
-  
-  const displayProjectDetails = (project) => {
-    setCurrentProject(project),
-    setIsModalVisible(true);
-  }
 
   const handleSlideChange = (swiper) => {
+    const currentProjectIndex = swiper.activeIndex;
+    setCurrentProject(projects[currentProjectIndex]);
     setPrevButtonVisible(!swiper.isBeginning);
     setNextButtonVisible(!swiper.isEnd);
   };
@@ -52,15 +47,13 @@ export default function SliderComponent() {
             <div className="slide-content absolute top-[45%] sm:top-[60%] 2xl:top-[63%] sm:-left-1/4 w-full sm:w-[150%] lg:-left-1/2 lg:w-[200%] flex flex-col items-center z-50">
               <TitleComponent text={project.title} />
               <p className="text-center text-sm 2xl:text-xl leading-loose my-2 xl:my-5">{project.description}</p>
-              <ButtonComponent text="see more" clicked={() => displayProjectDetails(project)} />
+              <ButtonComponent text="see more" clicked={() => setIsModalVisible(true)} />
             </div>
           </SwiperSlide>
         ))}
-        <div className={`arrow-prev fixed bottom-[12%] left-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
-          ${currentSection === 2 ? 'cursor-pointer' : 'opacity-0'}
+        <div className={`arrow-prev fixed bottom-[12%] left-1/4 z-40 text-5xl 2xl:text-7xl font-black cursor-pointer transition-all duration-500 
           ${!prevButtonVisible && 'opacity-0 cursor-default'}`} >←</div>
-        <div className={`arrow-next fixed bottom-[12%] right-1/4 z-40 text-5xl 2xl:text-7xl font-black transition-all duration-500 
-          ${currentSection === 2 ? 'cursor-pointer' : 'opacity-0'}
+        <div className={`arrow-next fixed bottom-[12%] right-1/4 z-40 text-5xl 2xl:text-7xl font-black cursor-pointer transition-all duration-500 
           ${!nextButtonVisible && 'opacity-0 cursor-default'}`} >→</div>
       </Swiper>      
     </>

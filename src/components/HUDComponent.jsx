@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-scroll'
 import { useSection } from '../utils/SectionContext'
 
 export default function HUDComponent({ scrollToSection }) {
