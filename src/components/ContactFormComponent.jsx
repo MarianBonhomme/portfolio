@@ -119,7 +119,8 @@ export default function ContactFormComponent() {
           clicked={() => formik.handleSubmit}
         />
         <p className="text-xxs mt-5 mx-auto">
-          *Ce formulaire est fictif, vous pouvez le tester.
+          *Ce formulaire est fictif, vous pouvez le tester mais il ne fonctionne
+          pas.
         </p>
       </form>
 
